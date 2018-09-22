@@ -24,6 +24,5 @@ def lambda_handler(*args, **kwargs):
     driver = webdriver.Chrome(chrome_options=chrome_options)
     driver.get("https://www.procuraduria.gov.co/portal/consulta_antecedentes.page")
     title = driver.title
-    print ("El Titulo de la pagina es: ",title)
-    
+    print ("El Titulo de la pagina es: ",title)    
     driver.quit()
