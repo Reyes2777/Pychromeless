@@ -7,7 +7,7 @@ services:
       - PYTHONPATH=/var/task/src:/var/task/lib
       - PATH=/var/task/bin
       - AWS_BUCKET_NAME='pychromelessreyes27'
-      - AWS_ACCESS_KEY_ID='AKIAII43LEKAH4E6NG6A'
-      - AWS_SECRET_ACCESS_KEY='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'
+      - AWS_ACCESS_KEY_ID=''
+      - AWS_SECRET_ACCESS_KEY=''
     volumes:
       - ./src/:/var/task/src/
